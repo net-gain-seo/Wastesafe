@@ -1,0 +1,138 @@
+footer{
+  padding-top: 40px;
+  padding-bottom: 25px;
+  .logo{
+    align-self: flex-end;
+    margin-bottom: 0px;
+
+    .companylogos{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      padding: 4rem 0;
+      max-width: 510px;
+      .companylogo{
+        width: 29%;
+        img{
+          width: 100%;
+          max-width: 140px;
+          float: left;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .phone{
+    float: right;
+    clear: both;
+    display: block;
+    a{
+      font-weight: bold;
+      font-size: 2.5rem;
+      font-family: 'Arial Narrow', arial, sans-serif;
+      color: white;
+      float: right;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+    p{
+      clear: both;
+      float: right;
+      text-align: right;
+    }
+  }
+  .social{
+    float: right;
+    clear: both;
+    display: block;
+    a:hover{
+      opacity: 0.8;
+    }
+    img{
+      margin-left: 0px;
+    }
+  }
+}
+.subfooter {
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 0;
+    text-align: center;
+    .phone {
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem; // 25px
+    }
+}
+// FOOTER
+.site-footer {
+    background-color: black;
+    color: #fff;
+
+    .copyright {
+        font-size: 2.2rem;
+        font-family: "Arial Narrow", "Oswald", Arial, sans-serif;
+        font-weight: 400;
+        span{
+          padding: 0px 25px;
+        }
+    }
+
+    .netgain {
+        font-family: Arial, sans-serif;
+        font-size: 1.6rem;
+    }
+}
+
+.flex-footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding-top: 1.5rem;
+    .f-item {
+        flex: 1 0 50%;
+        padding-bottom: 1.5rem;
+    }
+}
+.footer-nav {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+        }
+    }
+    a,
+    a:hover {
+        color: #fff;
+    }
+}
+.netgain {
+    text-align: right;
+}
+.footer-contact-container {
+    text-align: center;
+    background-color: $darkGray;
+    color: #fff;
+    padding: 60px 0px;
+    h3{
+      font-size: 3rem;
+      color: white;
+    }
+
+}

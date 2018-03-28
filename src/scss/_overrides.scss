@@ -1,0 +1,121 @@
+.btn {
+    border-radius: 0;
+}
+
+.btn-main {
+    color: #fff;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    &:hover {
+        color: #fff;
+        background-color: darken($primaryColor,8%);
+        border-color: darken($primaryColor,8%);
+    }
+}
+
+.btn-inverse { // white button with primaryColor text
+    color: $primaryColor;
+    background-color: #fff;
+    border-color: #fff;
+    &:hover {
+        color: $primaryColor;
+        background-color: rgba(white,0.8);
+        border-color: #fff;
+        box-shadow: 2px 2px 20px rgba(black,0.2);
+    }
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// Lost some card styles across the board
+.card {
+    border-radius: 0;
+    border: none;
+}
+.card-footer {
+    border-top: none;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+.close{
+  position: relative;
+  top: -30px;
+  right: -5px;
+  span{
+    font-size: 3rem;
+    font-weight: 100;
+    color: black;
+  }
+}
+.close-nav {
+    display: none;
+}
+.alignright {
+    float: right;
+    margin: 1rem 0 1rem 1rem;
+}
+.alignleft {
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.wpcf7-not-valid-tip,
+.wpcf7-validation-errors {
+    font-size: 2rem !important;
+}
+div.wpcf7-response-output {
+    margin: 2em 0em 0em;
+    padding: 0.2em 1em;
+    clear: both;
+}
+.modal, #wpcf7-f200-p15-o1 {
+  div.wpcf7-response-output {
+    margin-top: 75px;
+  }
+}
+#wpcf7-f85-p5-o1{
+  .wpcf7-form-control-wrap, .wpcf7-form-control-wrap {
+      position: relative;
+      height: 80px;
+      display: inline-block;
+  }
+}
+.sticky-header .modal {
+    top: 70px;
+}
+.col *:last-child {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 12px; // rem's will scale down
+    }
+    .title,
+    .mast.page-mast .mast-overlay h1 {
+        font-size: 2.5rem;
+    }
+    .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .site-header {
+        .container {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+    .product-mast {
+        .mast-overlay {
+            width: 100%;
+            padding: 0 30px !important;
+        }
+    }
+}
