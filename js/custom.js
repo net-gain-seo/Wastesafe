@@ -68,8 +68,6 @@
 
         }
 
-
-
         return true;
 
 
@@ -224,19 +222,27 @@
 
     var isSticky = false;
     var siteHeader = jQuery(".site-header");
+	var height = siteHeader.height() + parseInt(siteHeader.css('padding-top'));
     var mainNav = jQuery("#mainNav");
+	
+	jQuery(window).on('resize', function() {
+		if(!isSticky) {
+			height = siteHeader.height() + parseInt(siteHeader.css('padding-top'));
+		}
+	});
+	
     jQuery(document).on("scroll", function() {
-        if ( jQuery(document).scrollTop() >= 191 ) {
+        if ( jQuery(document).scrollTop() >= height ) {
             if(!isSticky) {
                 // jQuery(siteHeader).slideUp();
-                jQuery("body").addClass("sticky-header");
+                jQuery("body").addClass("sticky-header").css('margin-top',height);
                 // jQuery(siteHeader).slideDown();
                 isSticky = true;
             }
         } else {
             if(isSticky) {
                 // jQuery(siteHeader).slideUp();
-                jQuery("body").removeClass("sticky-header");
+                jQuery("body").removeClass("sticky-header").css('margin-top',0);
                 // jQuery(siteHeader).slideDown();
                 isSticky = false;
             }
