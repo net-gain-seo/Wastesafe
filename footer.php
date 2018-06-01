@@ -20,7 +20,7 @@
                  South San Francisco, California 94080</p>
           </div>
         </div>
-        <div class="f-item copyright">&copy; <?php echo date("Y"); ?> Waste Safe, Medical Waste Solutions <span>|</span> <a href="privacy-policy/" class="whiteText">Privacy Policy</a></div>
+        <div class="f-item copyright">&copy; <?php echo date("Y"); ?> WasteSafe, Medical Waste Solutions <span>|</span> <a href="privacy-policy/" class="whiteText">Privacy Policy</a></div>
 
         <div class="f-item netgain">Website Designed by <a href="http://www.netgainseo.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/netgain.png" alt=""></a></div>
     </div>
