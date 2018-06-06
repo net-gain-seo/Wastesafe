@@ -19,7 +19,7 @@
                 <div class="phone"><a href="tel:18887473380">Call (888) 747-3380</a></div>
             </div>
         </div>
-        <div class="header-nav">
+        <div class="header-nav clearfix">
             <div class="container padding0">
                   <div class="mobile-icons">
                     <a href="javascript:void(0);" id="navToggle" class="nav-toggle">
@@ -36,7 +36,7 @@
                         <span>CONTACT</span>
                     </a>
                 </div>
-                <nav id="mainNav" class="mobile-nav" role="navigation">
+                <nav id="mainNav" class="main-nav" role="navigation">
                   <a href="javascript:void(0);" class="get-quote" data-toggle="modal" data-target="#popForm">REQUEST A QUOTE</a>
                    <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '' ) ); ?>
                 </nav>

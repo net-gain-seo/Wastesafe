@@ -14,9 +14,6 @@
 	border-right: 1px solid darken($primaryColor,10%);
 	transform: translateX(-400px);
 	transition: transform 0.15s ease-in-out;
-	-webkit-transition: all 0.5s cubic-bezier(0.04, 0.73, 0.29, 0.97);
-	-moz-transition: all 0.5s cubic-bezier(0.04, 0.73, 0.29, 0.97);
-	transition: all 0.5s cubic-bezier(0.04, 0.73, 0.29, 0.97);
 
 	// Top Level
 	ul {

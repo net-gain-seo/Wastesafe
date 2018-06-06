@@ -198,18 +198,15 @@ select {
             width: 206px;
             height: 51px;
         }
-        .popover-recaptcha {
-            transform: scale(0.68);
-            transform-origin: 0px 0px;
-            float: left;
-            clear: both;
-        }
     }
     label {
         display: block;
         font-size: 1.6rem;
         color: #58595B;
         width: 100%;
+    }
+    .popover-recaptcha {
+        margin-bottom: 2rem;
     }
 }
 #popForm{
