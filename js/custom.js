@@ -266,12 +266,12 @@
       $(document).ready(function(){
     	//Check to see if the window is top if not then display button
     	$(window).scroll(function(){
-    		if ($(this).scrollTop() > 400) {
-    			$('.scrollToTop').fadeIn();
-    		} else {
-    			$('.scrollToTop').fadeOut();
-    		}
-    	});
+            if ($(this).scrollTop() > 400 && $('.scrollToTop').is(':hidden')) {
+                $('.scrollToTop').fadeIn();
+            } else if ($(this).scrollTop() <= 400 && $('.scrollToTop').is(':visible:not(:animated)')){
+                $('.scrollToTop').fadeOut();
+            }
+        });
     	//Click event to scroll to top
     	$('.scrollToTop').click(function(){
     		$('html, body').animate({scrollTop : 0},1000);
