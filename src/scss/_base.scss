@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Arial Narrow", "Oswald", arial, sans-serif;
   color: $primaryColor;
   font-weight: bold;
+  text-transform: capitalize !important;
 }
 p{
   font-size: $fsBody;
@@ -247,4 +248,23 @@ li{
 }
 .backgroundcover{
   background-size: cover;
+}
+
+.greyBg {
+    background: #E6E7E8;
+}
+
+.blackBg {
+    background: #000;
+
+    p, ul li, ul ol {
+        color: #FFF;
+    }
+}
+
+.smallHeading {
+    font-size: $fsH3;
+}
+.textCenter {
+    text-align: center;
 }
