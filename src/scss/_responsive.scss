@@ -1,8 +1,25 @@
 @media only screen and (max-width: 1600px) {
   .slider-content .inner-content {
-      top: 75px;
+      top: 60%;
   }
 }
+
+@media only screen and (max-width: 1515px) {
+  .slider-content .inner-content {
+      top: 53%;
+
+      h1 {
+          font-size: 3.5rem;
+      }
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .slider-content .inner-content {
+      top: 48%;
+  }
+}
+
 @media only screen and (max-width: $screen-lg-min) {
   .contentalign.padding100, .contentalign.padding90, .contentalign.padding80,
   .contentalign.padding70, .contentalign.padding60, .contentalign.padding50, .contentalign.padding40, .contentalign.padding30, .contentalign.padding10{
