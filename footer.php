@@ -9,10 +9,10 @@
 
         <div class="f-item phone-assoc">
           <div class="social">
-              <a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/facebookicon.png" width="45px" alt=""></a>
-              <a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/twittericon.png" width="45px" alt=""></a>
-              <a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/googleicon.png" width="45px" alt=""></a>
-              <a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/linkedinicon.png" width="45px" alt=""></a>
+              <a href="https://www.facebook.com/WasteSafe-131634114374856/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/facebookicon.png" width="45px" alt="Waste Safe Facebook Page"></a>
+              <a href="https://twitter.com/waste_safe" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/twittericon.png" width="45px" alt="Waste Safe Twitter Page"></a>
+              <a href="https://plus.google.com/113711225107103723570" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/googleicon.png" width="45px" alt="Waste Safe Google Plus Page"></a>
+              <a href="https://www.linkedin.com/company/wastesafe/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/linkedinicon.png" width="45px" alt="Waste Safe LinkedIn Page"></a>
           </div>
           <div class="phone">
               <a href="tel:18887473380">Call (888) 747-3380</a>
