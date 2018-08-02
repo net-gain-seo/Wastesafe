@@ -1,25 +1,14 @@
 <?php
     get_header();
 ?>
-<?php
-    $postId = get_the_post_id();
-?>
 
 <div class="mast page-mast">
-    <?php
-    if( has_post_thumbnail($postId) ) {
-        the_post_thumbnail($postId);
-    } else {
-        echo '<img src="' . home_url() . '/wp-content/uploads/2018/01/Banner5.jpg" alt="">';
-    }
-    ?>
+    <img src="<?php echo home_url(); ?>/wp-content/uploads/2018/03/SubpageBanner.jpg" />
 </div>
-
-<?php echo do_shortcode( '[common_element id="391"]' ); ?>
 
 <div class="container blog-content">
     <div class="row">
-        <div class="col col-12 col-lg-9">
+        <div class="col col-12 col-lg-12">
             <?php while ( have_posts() ) : the_post(); ?>
 
                 <article>
@@ -39,16 +28,13 @@
                 <div class="next"><?php next_post_link('%link', '<span>%title</span> <i class="fa fa-angle-double-right"></i>', FALSE); ?></div>
             </div>
         </div>
-
-        <div class="col col-12 col-lg-3">
-
-            <div class="blog-sidebar">
-                <?php dynamic_sidebar( 'page_sidebar_1' ); ?>
-            </div>
-
-        </div>
     </div>
-
+</div>
+<div class="container-fluid footer-contact-container dropshadow">
+    <div class="container">
+    <h3>CONTACT US FOR INFORMATION</h3>
+    <?php echo do_shortcode( '[contact-form-7 id="258" title="Footer Form" html_class="footer-form"]' ); ?>
+    </div>
 </div>
 
 <?php
