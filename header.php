@@ -12,8 +12,8 @@
 
 <header class="container-fluid site-header">
     <div class="container flex-header">
-        <div class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/waste-safe-menu-logo.jpg" alt=""></a></div>
-        <div class="stickylogo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo-sticky.png" alt=""></a></div>
+        <div class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/waste-safe-menu-logo.jpg" alt="Waste Safe Logo"></a></div>
+        <div class="stickylogo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo-sticky.png" alt="Waste Safe Icon"></a></div>
         <div class="header-block">
             <div class="inner-block">
                 <div class="phone"><a href="tel:18887473380">Call (888) 747-3380</a></div>
