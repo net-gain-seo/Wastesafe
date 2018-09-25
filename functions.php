@@ -53,7 +53,7 @@ add_action( 'wp_enqueue_scripts', 'ws_scripts' );
 
 function ld_new_excerpt_more($more) {
     global $post;
-    return '...<br/><h3><a class="more-link" href="'. get_permalink($post->ID) . '">Read More</a></h3>';
+    return '...<br/><h3><a class="more-link" href="'. get_permalink($post->ID) . '">Read More »</a></h3>';
 }
 add_filter('excerpt_more', 'ld_new_excerpt_more');
 
