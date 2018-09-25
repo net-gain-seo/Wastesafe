@@ -7,17 +7,22 @@
 
     <img src="<?php echo home_url(); ?>/wp-content/uploads/2018/03/SubpageBanner.jpg" />
     <div class="container mast-overlay">
-        <h1>Blog</h1>
+        <h1>Page Not Found</h1>
     </div>
 </div>
 <div class="container">
-    <div class="row blog-content">
+    <div class="row">
         <div class="col col-12 col-lg-12">
-
-            <h1>404 Error - Page Not Found</h1>
-
-            <p>The page you are looing for isn't available.</p>
-
+            <p>The page you are looking for isn't available. Use the buttons below to find important pages about what we do, or <a href="https://wastesafe.com/contact/">contact us</a> for more information.</p>
+        </div>
+        <div class="col col-sm-12 col-md-4 text-align-center paddingtop25">
+            <a href="https://wastesafe.com/services/" class="button">Our Services</a>
+        </div>
+        <div class="col col-sm-12 col-md-4 text-align-center paddingtop25">
+            <a href="https://wastesafe.com/service-areas/" class="button">Our Service Areas</a>
+        </div>
+        <div class="col col-sm-12 col-md-4 text-align-center paddingtop25">
+            <a href="https://wastesafe.com/about-us/" class="button">About Us</a>
         </div>
     </div>
 </div>
