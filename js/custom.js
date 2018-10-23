@@ -20,6 +20,13 @@
         }
     });
 
+    jQuery('a[href^="tel:"]').click(function(){
+        var href = jQuery(this).attr('href');
+        if (jQuery(window).width() < 601 ){
+            __gaTracker('send','event','Phone','Click',href);
+        }
+    });
+    
     // Left/right aligned containers padding offset
 
     // to keep things lined up
