@@ -3,6 +3,7 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://wastesafe.com/wp-content/uploads/2018/12/Waste-Safe-Social-Default-fb.jpg" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
     <?php wp_head(); ?>
