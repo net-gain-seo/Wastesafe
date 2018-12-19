@@ -70,7 +70,10 @@
     display: block;
     margin: 1rem auto;
 }
-
+.scrollToTop {
+    right: 8px;
+    bottom: 90px;
+}
 .wpcf7-not-valid-tip,
 .wpcf7-validation-errors {
     font-size: 2rem !important;
