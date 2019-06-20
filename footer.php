@@ -1,7 +1,7 @@
 </main>
 <footer class="container-fluid site-footer">
     <div class="container flex-footer">
-      <div class="f-item logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo-footer.png" width="495px" class="footerlogo" alt="Waste Safe - Medical Waste Solutions"></a>
+      <div class="f-item logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/NEW-wastesafe-logo-footer.png" width="495px" class="footerlogo" alt="Waste Safe - Medical Waste Solutions"></a>
         <div class="companylogos"><a href="https://www.hhs.gov/hipaa/index.html" target="_blank" class="companylogo"><img alt="HIPPA Compliant" src="<?php bloginfo('template_url'); ?>/img/HIPPA.png" /></a>
         <a href="https://www.osha.gov/" target="_blank" class="companylogo"><img alt="Compliant with OSHA" src="<?php bloginfo('template_url'); ?>/img/OSHA.png" /></a>
         <a href="https://medwasteonline.org/" target="_blank" class="companylogo"><img alt="Member of Medical Waste Management Association" src="<?php bloginfo('template_url'); ?>/img/MWMA.png" /></a></div>
